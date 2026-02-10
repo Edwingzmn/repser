@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/peguero/public_html/repser.mx/app
+    - /bin/cp -R * $DEPLOYPATH
